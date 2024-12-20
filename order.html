@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Bunga</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+
+  <div class="scrollToTop-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
+
+  <header>
+    <a href="#" class="brand">The Bloomery</a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <a href="./index.html#main">home</a>
+      <a href="./index.html#about">about</a>
+      <a href="./gallery.html">galeri</a>
+      <a href="./product.html">product</a>
+      <a href="./order.html">order</a>
+      <a href="./index.html#contact">contact</a>
+    </div>
+  </header>
+
+  <section class="main" id="main">
+    <div class="content">
+      <h2>solusi indah untuk setiap momen spesial<br> <span>Selamat Datang</span> </h2>
+      <div class="animated-text">
+        <h3>BIRTHDAY</h3>
+        <h3>WEDDING DAY</h3>
+        <h3>GIFTS</h3>
+      </div>
+      <a href="#" class="btn">Shop Collection</a>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+<section class="order" id="order">
+  <div class="title reveal">
+    <div class="section-title">Formulir Order</div>
+  </div>
+
+  <div class="order-container">
+    <form action="#" method="post" class="order-form" id="orderForm">
+      <div class="input-box">
+        <label for="product-select">Pilih Produk</label>
+        <select name="product" id="product-select">
+          <option value="50000,0">Flower Pot - Rp 50.000</option>
+          <option value="200000,0.1">Mawar Merah - Rp 200.000 </option>
+          <option value="230000,0.1">Lily Putih - Rp 230.000 </option>
+          <option value="150000,0.1">Anggrek - Rp 150.000 </option>
+          <option value="350000,0.15">Sunflower - Rp 350.000 </option>
+          <option value="300000,0.2">Anyelir - Rp 300.000 </option>
+        </select>
+      </div>
+
+      <div class="input-box">
+        <label for="quantity">Jumlah</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1">
+      </div>
+
+      <div class="output-box">
+        <p>Total Harga: Rp <span id="total">50,000</span></p>
+      </div>
+
+      <div class="input-box">
+        <input type="submit" class="submit-btn" value="Pesan Sekarang">
+      </div>
+    </form>
+  </div>
+</section>
+
+  <section class="contact" id="contact">
+  <div class="title reveal">
+    <h2 class="section-title">Hubungi Saya</h2>
+  </div>
+
+  <div class="content">
+    
+    <div class="contact-info">
+      <div class="row">
+        <!-- Alamat -->
+        <div class="card reveal">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="info">
+            <h3>Alamat</h3>
+            <span>Tangerang Selatan</span>
+          </div>
+        </div>
+        
+        <div class="card reveal">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="info">
+            <h3>Telepon</h3>
+            <span>0912 8997 2343</span>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="info">
+            <h3>Email Address</h3>
+            <span>thebloomery123@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="contact-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="info">
+            <h3>Website</h3>
+            <span>thebloomery.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-container">
+      <form action="#" method="post" class="contact-form">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Nama" required>
+        </div>
+        <div class="input-box">
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="input-box">
+          <textarea name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+        </div>
+        <div class="input-box">
+          <input type="submit" class="send-btn" value="Kirim">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <footer class="footer">
+    <span class="footer-title">Putri Permatasari</span>
+    <p>Teknik Informatika.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
